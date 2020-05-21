@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour
 {
+    //todo fix lighting bug
+
     [SerializeField] float rcsThrust = 100f;
     [SerializeField] float mainThrust = 100f;
     Rigidbody rigidBody;
@@ -34,13 +34,13 @@ public class Rocket : MonoBehaviour
         switch(collision.gameObject.tag){
             case "Friendly":
                 //do nothing
-                print("Ok");
                 break;
-            case "Fuel":
-                print("Fuel");
+            case "Finish":
+                print("Hit Finish");
+                SceneManager.LoadScene(1);
                 break;
             default:
-                print("Dead");
+                SceneManager.LoadScene(0);
                 break;
         }
     }
