@@ -780,7 +780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b29a56e2fa351504783fd716388f4d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 0, z: 40}
+  movementVector: {x: 0, y: 0, z: -28}
   period: 2
   movementFactor: 0
 --- !u!1 &1818732760
@@ -1245,6 +1245,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5845883296144031656, guid: f1324e1e9ae83e64ea026b92994c1d68,
+        type: 3}
+      propertyPath: field of view
+      value: 49.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5845883296144031657, guid: f1324e1e9ae83e64ea026b92994c1d68,
         type: 3}
       propertyPath: m_LocalPosition.x
