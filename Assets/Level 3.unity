@@ -140,7 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b29a56e2fa351504783fd716388f4d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 30, y: 0, z: 0}
+  movementVector: {x: 25, y: -6, z: 0}
+  period: 4
   movementFactor: 0
 --- !u!108 &170076734 stripped
 Light:
@@ -564,17 +565,17 @@ PrefabInstance:
     - target: {fileID: 7535171557894966162, guid: 39991074d421ee446900f17e6fbd85fb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.99
+      value: 21.96
       objectReference: {fileID: 0}
     - target: {fileID: 7535171557894966162, guid: 39991074d421ee446900f17e6fbd85fb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.87
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 7535171557894966162, guid: 39991074d421ee446900f17e6fbd85fb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.57
+      value: 31.53
       objectReference: {fileID: 0}
     - target: {fileID: 7535171557894966162, guid: 39991074d421ee446900f17e6fbd85fb,
         type: 3}
